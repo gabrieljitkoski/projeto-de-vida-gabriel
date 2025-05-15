@@ -39,7 +39,7 @@ function calculaTempo(tempoObjetivo) {
 
         return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
     } else {
-        return "Prazo Finalizado";
+        return [0,0,0,0];
     }
     
 }
